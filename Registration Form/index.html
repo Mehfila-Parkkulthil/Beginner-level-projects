@@ -1,0 +1,131 @@
+<!DOCTYPE html><!--To declare its html5 version-->
+<!--html tag-->
+<html lang="en"><!--Language is english-->
+
+  <!--head tag-->
+  <head> 
+    <meta charset="UTF-8">
+    <!--Added title of the page as Registration form-->
+    <title>Registration Form</title>
+    <!--linked st.css as stylesheet to html -->
+    <link rel="stylesheet" href="st.css" />
+  </head>
+
+  <!-- Added body tag -->
+  <body>
+
+    <!-- Added heading tag -->
+    <h1>Registration Form</h1>
+
+    <!-- added paragraph tag  -->
+    <p>Please fill out this form with the required information</p>
+
+    <!-- Created a form tag -->
+
+    <form method="post" action='action.php'>
+     <!-- Action used here for instance is php and method is post.  There are two methods GET and POST. GET is used to recieve data from a specific source and POST is to send data   -->
+
+     <!-- Created a fieldset to group related type of elements -->
+      <fieldset>
+
+       <!-- Added 4 label tags -->
+       <!-- Screen reader users (will read out loud the label, when the user is focused on the element) -->
+       <!-- Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area).  -->
+
+       <!-- Label tag for first-name  -->
+        <label for="first-name">Enter Your First Name: 
+          <input id="first-name" type="text" name="first-name" required />
+        </label>
+
+       <!-- Label tag for last-name  -->
+        <!-- id and for should be same value  -->
+        <label for="last-name">Enter Your Last Name: 
+           <input id="last-name" type="text" name="last-name"required />
+           <!-- Required make this session mandatory to attempt -->
+        </label>
+
+        <!-- Label tag for email  -->
+        <!-- id and for should be same value  -->
+        <label for="email">Enter Your Email: 
+           <input id="email" type="email" name="email"required />
+           <!-- Required make this session mandatory to attempt -->
+        </label>
+
+        <!-- Label tag for password  -->
+         <!-- id and for should be same value  -->
+        <label for="new-password">Create a New Password: 
+          <input id="new-password" name="password"type="password" pattern="[a-z 0-5]{8,}" required />
+          <!-- pattern between a-z and 0-5 and min is 8 -->
+        </label>
+
+     </fieldset>
+
+      <fieldset>
+        <!-- Added legend tag acts as caption for fieldset  -->
+        <legend>Account type (required)</legend>
+
+        <!-- Label tag for personalacc with input type as radio -->
+        <!-- Checked make the radio button has to be checked anyone . Checked wont work for both as its radio type -->
+        <label for="personal-account">
+          <input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal
+        </label>
+
+        <!-- Label tag for business acc with input type as radio -->
+        <label for="business-account">
+         <input id="business-account" type="radio" name="account-type"  class="inline" /> Business
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+       <!-- Label tag for profile pic with type as file  -->
+        <label for="profile-picture">Upload a profile picture: 
+          <input id="profile-picture" type="file" name="file"/>
+        </label>
+
+        <!-- Label tag for age with type as number with min and max attribute  -->
+        <label for="age">Input your age (years): 
+          <input id="age" type="number" min="13" max="120" name="age"/>
+        </label>
+
+        <!-- Label tag for referrer with select tag and option tag  -->
+        <label for="referrer">How did you hear about us?
+
+          <select id="referrer" name="referrer">
+           <option value="">(select one)</option>
+           <option value="1">freeCodeCamp News</option>
+           <option value="2">freeCodeCamp YouTube Channel</option>
+           <option value="3">freeCodeCamp Forum</option>
+           <option value="4">Other</option>
+          </select>
+
+        </label>
+
+        <!-- Label tag for bio and added textarea -->
+        <label for="bio">Provide a bio:
+              <textarea id ="bio" rows="3" cols="30" placeholder="I like coding on the beach..." name="bio"></textarea>
+       </label>
+      </fieldset>
+      
+      <!-- Label tag for terms and conditions  -->
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" name="terms" required class="inline"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+
+      <!-- added a submit button  -->
+      <input type="submit" value="Submit" />
+      <!-- Submit button can be created using buttontag or input tag with type submit -->
+   </form>
+  </body>
+</html>
+
+
+<!-- The value attribute specifies the value of an <input> element.
+The value attribute is used differently for different input types:
+For "button", "reset", and "submit" - it defines the text on the button
+For "text", "password", and "hidden" - it defines the initial (default) value of the input field
+For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is sent on submit) -->
+
+<!-- The name attribute specifies the name of an <input> element.
+The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.
+Note: Only form elements with a name attribute will have their values passed when submitting a form. -->
