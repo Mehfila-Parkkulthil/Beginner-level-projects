@@ -1,0 +1,72 @@
+body {
+  width: 100%; 
+  height: 100vh; /*viewport */
+  margin: 0; /*to avoid default browser margin*/
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+label {
+  display: block; /*changing the display to block as they are inline by default*/
+  margin: 0.5rem 0; /*setting top and bottom margin as 0.5rem*/
+
+  /* In CSS rem stands for “root em”, a unit of measurement that represents the font size of the root element. This means that 1rem equals the font size of the html element, which for most browsers has a default value of 16px. */
+  }
+
+  
+h1 , p {
+  margin:1em auto;
+  text-align:center;
+  /* 1em means 1 times the size of the current font */
+  }
+
+form{
+  margin:0 auto; 
+  /* setting top and bottom margin as zero and left and right as auto makes form center placed  */
+  max-width:500px;
+  min-width:300px;
+  width:60vw;
+  padding-bottom:2em;
+  /* this CSS code centers the form horizontally within its parent container and makes it responsive by setting its width to 60% of the viewport width. It also ensures that the form's width is within the range of 300px to 500px, and adds padding to the bottom for spacing. */
+  }
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom:3px solid #3b3b4f;
+  }
+fieldset:last-of-type{
+  border-bottom:none;
+  }
+input ,textarea ,select {
+  width:100%;
+  margin:10px 0 0 0;
+  min-height:2em;
+  } 
+.inline{
+  width:unset;
+  margin:0 0.5em 0 0;
+  vertical-align:middle;
+ }
+input, textarea{
+  background-color:#0a0a23;
+  border:1px , solid , #0a0a23;
+  color:#ffffff;
+  }
+input[type ="submit"]{
+  display:block;
+  min-width:300px;
+  width:60%;
+  margin:1em auto;
+  height:2em;
+  font-size:1.1rem;
+  background-color:#3b3b4f;
+  border-color:white;
+  }
+input[type="file"]{
+  padding :1px 2px;
+  }
+  /* input[type="file"] attribute selecter */
+a{
+  color:#dfdfe3;
+  } 
