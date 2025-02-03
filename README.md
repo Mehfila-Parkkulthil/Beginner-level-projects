@@ -3,4 +3,5 @@ This repository focuses sharing my learnings as beginner , which may help freshe
 Beginner level projects using HTML , CSS and JavaScript.
 |Project name | Language | Preview|
 |---|---|---|
-|Registration form|HTML ,CSS||
+|Registration form|HTML ,CSS|Preview[www.google.com]|
+
