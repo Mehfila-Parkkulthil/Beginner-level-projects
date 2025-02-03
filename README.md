@@ -3,5 +3,5 @@ This repository focuses sharing my learnings as beginner , which may help freshe
 Beginner level projects using HTML , CSS and JavaScript.
 |Project name | Language | Preview|
 |---|---|---|
-|Registration form|HTML ,CSS|[Preview]()|
+|Registration form|HTML ,CSS|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/Registration%20Form/index.html)|
 
