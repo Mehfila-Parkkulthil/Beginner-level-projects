@@ -4,7 +4,7 @@ Beginner level projects using HTML , CSS and JavaScript.
 |Project name | Language | Preview|
 |---|---|---|
 |Registration form|HTML ,CSS|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/Registration%20Form/index.html)|
-|Recipe Page|HTML|[Preview]|
+|Recipe Page|HTML|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/Recipe%20page%20-1/index.html)|
 ||||
 ||||
 ||||
