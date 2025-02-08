@@ -4,6 +4,7 @@
 body{
     margin:0;
     background-color: #ffffff;
+/*     added or copied pattern background  */
     background-image:  linear-gradient(#e8e0e0 1px, transparent 1px), linear-gradient(to right, #e8e0e0 1px, beige 1px);
     background-size: 20px 20px;
     font-family: "Handlee", serif; 
