@@ -7,5 +7,5 @@ Beginner level projects using HTML , CSS and JavaScript.
 |Recipe Page|HTML|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/Recipe%20page%20-1/index.html)|
 |Tribute Page|HTML ,CSS|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/Tribute%20page-2/index.html)|
 |E-commerce Page|HTML,CSS|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/E-commerce%20arrival%20page-3/index.html)|
-||||
+|Portfolio Comic|HTML,CSS|[Preview](https://raw.githack.com/Mehfila-Parkkulthil/Beginner-level-projects/refs/heads/main/Portfolio%20comic%20-5/index.html)|
 ||||
