@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color: #ffffff;
+    background-image:  linear-gradient(#e8e0e0 1px, transparent 1px), linear-gradient(to right, #e8e0e0 1px, beige 1px);
+    background-size: 20px 20px;
+    font-family: "Handlee", serif; 
+}
+.border{
+    border:4px solid black;
+}
+.color-pink{
+    background-color: pink;
+}
+.font-weight-900{
+    font-weight: 900;
+}
+.text-align-center{
+    text-align: center;
+}
+.name h1{
+    line-height: 27px;
+    font-size: 40px;
+}
+.name p{
+    font-size: 20px;
+}
+.name:hover{
+    background:linear-gradient(blue, purple);
+    color: white;
+}
+.container{
+    border-radius: 20px;
+    width:70%;
+    min-height:600px ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.w-300-h-300{
+    width:300px;
+    min-height: 300px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.tech-skills{
+    background: linear-gradient(rgb(255, 19, 7) , yellow);
+}
+.tech-skills:hover ,.soft-skills:hover,.edu:hover, .lang:hover ,.projects:hover{
+    color: white;
+    border:none;
+    transform: translatey(12px);
+}
+.soft-skills{
+    background:linear-gradient(blue ,aqua);
+}
+.edu{
+    background:linear-gradient( rgb(7, 255, 119),orange);
+}
+.lang{
+    background:linear-gradient(rgb(216, 5, 216),rgb(242, 45, 78)) ;
+}
+.projects{
+    background:linear-gradient(rgb(25, 0, 250),rgb(127, 9, 177));
+}
+li , p{
+    font-size: 18px;
+    font-weight:600;
+}
+p{
+    margin:14px;
+}
